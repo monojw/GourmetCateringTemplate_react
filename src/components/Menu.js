@@ -51,7 +51,7 @@ const Menu = ({ title }) => {
   const menuSrc = 'https://www.w3schools.com/w3images/tablesetting.jpg';
 
   return (
-    <MenuContainer>
+    <MenuContainer id="menu">
       {/* 텍스트영역 */}
       <div className="menuText">
         <h1 className="title">{title}</h1>

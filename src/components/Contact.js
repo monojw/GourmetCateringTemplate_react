@@ -53,7 +53,7 @@ const Contact = ({ title }) => {
   const { desc, addr, email } = ContactData;
 
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <h1 className="title">{title}</h1>
       <br />
 

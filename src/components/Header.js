@@ -36,7 +36,7 @@ const HeaderContainer = styled.div`
 
 const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="header">
       <div className="headerImg">
         <img
           src="https://www.w3schools.com/w3images/hamburger.jpg"

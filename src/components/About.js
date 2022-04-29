@@ -56,7 +56,7 @@ const About = ({ title, subTitle }) => {
   const aboutSrc = 'https://www.w3schools.com/w3images/tablesetting2.jpg';
 
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       {/* 이미지 영역 */}
       <ImgComponent src={aboutSrc} alt="menuImage" />
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
 const NavContainer = styled.div`
   position: fixed;
@@ -39,13 +39,21 @@ const Nav = () => {
   return (
     <NavContainer>
       <div className="logo">
-        <Link to="/">Gourmet au Catering</Link>
+        <Link to="header" spy={true} smooth={true}>
+          Gourmet au Catering
+        </Link>
       </div>
 
       <nav className="nav">
-        <Link to="/about">About</Link>
-        <Link to="/menu">Menu</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="about" spy={true} smooth={true}>
+          About
+        </Link>
+        <Link to="menu" spy={true} smooth={true}>
+          Menu
+        </Link>
+        <Link to="contact" spy={true} smooth={true}>
+          Contact
+        </Link>
       </nav>
     </NavContainer>
   );
