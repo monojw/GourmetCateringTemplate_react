@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const HeaderContainer = styled.div`
   position: relative;
+  margin: 0 auto;
 
   .headerImg {
     width: 1600px;

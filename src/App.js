@@ -19,7 +19,7 @@ const AppContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1100px;
+  width: 1600px;
   margin: 0 auto;
 
   hr {
