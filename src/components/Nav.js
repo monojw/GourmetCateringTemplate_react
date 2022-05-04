@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 const NavContainer = styled.div`
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 1;
@@ -20,6 +20,7 @@ const NavContainer = styled.div`
 
   .logo {
     a {
+      display: inline-block;
       padding: 8px 16px;
     }
   }
@@ -31,6 +32,12 @@ const NavContainer = styled.div`
       display: inline-block;
       border: none;
       padding: 8px 16px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav {
+      display: none;
     }
   }
 `;

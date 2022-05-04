@@ -19,36 +19,25 @@ const AppContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1600px;
-  margin: 0 auto;
-
-  hr {
-    width: 100%;
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
-  }
 `;
 
 const App = () => {
   return (
-    <div>
+    <AppContainer>
       {/* NAV 컴포넌트 */}
       <Nav />
 
-      <AppContainer>
-        {/* Header 컴포넌트 */}
-        <Header />
+      {/* Header 컴포넌트 */}
+      <Header />
 
-        <Routes>
-          {/* Main 컴포넌트 */}
-          <Route path="/" export={true} element={<Main />} />
-        </Routes>
-      </AppContainer>
+      <Routes>
+        {/* Main 컴포넌트 */}
+        <Route path="/" export={true} element={<Main />} />
+      </Routes>
 
       {/* Footer 컴포넌트 */}
       <Footer />
-    </div>
+    </AppContainer>
   );
 };
 

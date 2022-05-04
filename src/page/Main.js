@@ -10,8 +10,15 @@ const MainContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
+
+  hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  }
 `;
 
 const Main = () => {

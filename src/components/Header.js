@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 const HeaderContainer = styled.div`
   position: relative;
-  margin: 0 auto;
+  max-width: 1600px;
 
   .headerImg {
-    width: 1600px;
-    height: 800px;
+    width: 100%;
+    height: auto;
 
     img {
       display: block;

@@ -7,9 +7,7 @@ const AboutContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 1100px;
   padding: 64px 0;
-  margin: 0 auto;
 
   .aboutText {
     display: flex;
@@ -31,6 +29,18 @@ const AboutContainer = styled.div`
         line-height: 1.5;
         padding: 0 8px;
       }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    .imgComponent {
+      display: none;
+    }
+
+    .aboutText {
+      width: 100%;
     }
   }
 `;

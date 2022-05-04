@@ -24,7 +24,8 @@ const GlobalStyles = createGlobalStyle`
       font-size: 36px;
       line-height: 54px;
       letter-spacing: 5px;
-      margin: 10px auto 10px;
+      margin: 10px 0;
+      text-align: center;
     }
 
     .subTitle {

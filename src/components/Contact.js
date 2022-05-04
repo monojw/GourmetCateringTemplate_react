@@ -8,9 +8,7 @@ const ContactContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 1100px;
   padding: 64px 16px;
-  margin: 0 auto;
 
   .title {
     margin: 10px 0;

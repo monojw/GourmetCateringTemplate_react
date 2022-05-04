@@ -38,7 +38,7 @@ const Meta = (props) => {
 Meta.defaultProps = {
   title: 'Gourmet Catering Template Clone (react)',
   description: 'React.js로 구현한 W3School 클론코딩 페이지 입니다.',
-  keywords: 'React,layout,demo',
+  keywords: 'React,layout,demo,responsive,web',
   author: 'JEON WOO YEOL',
   url: window.location.href,
 };

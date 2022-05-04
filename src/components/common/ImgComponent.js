@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ImgComponentStyle = styled.div`
-  width: 50%;
   padding: 12px 24px;
 
   img {
@@ -14,7 +13,7 @@ const ImgComponentStyle = styled.div`
 
 const ImgComponent = ({ src, alt }) => {
   return (
-    <ImgComponentStyle>
+    <ImgComponentStyle className="imgComponent">
       <img src={src} alt={alt} />
     </ImgComponentStyle>
   );

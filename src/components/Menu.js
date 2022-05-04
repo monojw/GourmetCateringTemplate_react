@@ -7,9 +7,7 @@ const MenuContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 1100px;
   padding: 64px 0;
-  margin: 0 auto;
 
   .menuText {
     display: flex;
@@ -18,6 +16,10 @@ const MenuContainer = styled.div`
     align-items: flex-start;
     width: 50%;
     padding: 12px 24px;
+
+    .title {
+      align-self: center;
+    }
 
     .menuTitle {
       font-family: sans-serif;
@@ -33,6 +35,14 @@ const MenuContainer = styled.div`
       font-size: 15px;
       line-height: 22.5px;
       margin: 15px 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    .menuText {
+      width: 100%;
     }
   }
 `;
